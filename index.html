@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>BMI紀錄器</title>
+    <link rel="shortcut icon" href="img/BMI_ICON.png">
+    <meta property="og:title" content="BMI紀錄器"/> 
+    <meta property="og:description" content="自己的健康自己管"/> 
+    <meta property="og:type" content="website"/> 
+    <meta property="og:url" content="#"/> 
+    <meta property="og:image" content="img/BMI_ICON.png"/> 
+
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+</head>
+<body>
+    <div class="wrap">
+        <div class="header">
+            <img src="img/BMICLogo.png" alt="">
+            <div class="BMI_input">
+                <label for="height">身高 cm</label>
+                <input type="unmber" id="height" class="height" placeholder="請輸入身高">
+                <label for="weight">體重 kg</label>
+                <input type="unmber" id="weight" class="weight" placeholder="請輸入體重">
+            </div>
+            <div class="star_value">
+                <button class="BMI_check" data-value="0" >看結果</button>
+            </div>
+        </div>
+        <div class="content">
+            <h1>BMI 紀錄</h1>
+            <ul class="data_list">
+            
+            </ul>
+        </div>
+        <div class="footer">
+            <img src="img/BMICLogo2.png" alt="">
+        </div>
+    </div>
+    <script src="js/all.js"></script>
+</body>
+</html>
